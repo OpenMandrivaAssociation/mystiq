@@ -9,6 +9,7 @@ Group:		Video
 Url:		https://mystiq.swlx.info/
 Source0:	https://github.com/llamaret/MystiQ/archive/v%{version}/%{oname}-%{version}.tar.gz
 
+BuildRequires:  qmake5
 BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(Qt5Gui)
 BuildRequires:  pkgconfig(Qt5Network)
@@ -50,7 +51,7 @@ Advanced users can also adjust conversion parameters in detail.
 chmod -x mystiq.desktop icons/mystiq.svg
 
 %build
-qmake-qt5 mystiq.pro
+%qmake_qt5 mystiq.pro
 make USE_LIBNOTIFY=1 -j3 VERBOSE=1
 
 %install
