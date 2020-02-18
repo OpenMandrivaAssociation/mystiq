@@ -57,4 +57,4 @@ chmod -x mystiq.desktop icons/mystiq.svg
 make USE_LIBNOTIFY=1 -j3 VERBOSE=1
 
 %install
-%make_install
+%make_install INSTALL_ROOT=%{buildroot}
