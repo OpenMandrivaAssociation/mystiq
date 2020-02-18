@@ -44,6 +44,7 @@ Advanced users can also adjust conversion parameters in detail.
 %{_bindir}/%{name}
 %{_datadir}/icons/hicolor/scalable/apps/mystiq.svg
 %{_datadir}/applications/*.desktop
+%{_datadir}/metainfo/mystiq.appdata.xml
 %{_mandir}/man1/*.1.zst
 
 #-----------------------------------------------------------------------------
