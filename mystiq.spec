@@ -7,7 +7,7 @@ Release:	1
 License:	GPLv3
 Group:		Video
 Url:		https://mystiq.swlx.info/
-Source0:	https://github.com/llamaret/MystiQ/archive/v%{version}/%{name}-%{version}.tar.gz
+Source0:	https://github.com/llamaret/MystiQ/archive/v%{version}/%{oname}-%{version}.tar.gz
 
 BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(Qt5Gui)
