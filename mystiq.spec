@@ -4,7 +4,7 @@
 Summary:	Audio/Video converter
 Name:		mystiq
 Version:	20.03.23
-Release:	1
+Release:	2
 License:	GPLv3
 Group:		Video
 Url:		https://mystiq.swlx.info/
